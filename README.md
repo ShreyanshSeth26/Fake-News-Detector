@@ -15,12 +15,6 @@ A robust and lightweight fake news detection system built using a fine-tuned Dis
 
 ---
 
-## 📁 Project Structure
-
-<pre> <code> 📁 <b>Fake-News-Detector/</b> ├── 📂 <b>outputs/</b> │ └── 📂 <b>checkpoints/</b> │ └── 📂 <b>BestModel/</b> # Final fine-tuned model checkpoint │ ├── 📄 <b>main.py</b> # Inference script using LoRA model ├── 📂 <b>utils/</b> # Preprocessing, training, etc. (if any) ├── 📄 <b>requirements.txt</b> # Python dependencies └── 📄 <b>README.md</b> # Project documentation </code> </pre>
-
----
-
 ## 🧠 Model Architecture
 
 - **Base Model**: [`distilbert-base-uncased`](https://huggingface.co/distilbert-base-uncased)
